@@ -1,0 +1,97 @@
+/* :root {
+    color: #2196F3;
+    color: #757575;
+    color: #212121;
+} */
+body {
+background-color: #F5F4FA;
+color: #212121;
+font-family: Roboto,sans-serif;
+text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo-web{
+color: #2196F3;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+}
+
+
+.logo-studio{
+color: #212121;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+}
+.header-link{
+    text-decoration: none;
+}
+
+
+.header-list {
+color: #212121;
+font-size: 14px;
+font-weight: 500;
+text-decoration: none;
+}
+.header-list:hover,:focus{
+color: #2196F3;
+}
+
+
+.contact{
+color: #757575;
+font-size: 14px;
+text-decoration: none;
+}
+.contact:hover,:focus {
+color: #2196F3;
+}
+
+
+.hero-title{
+    background-color: #212121;
+    font-size: 44px;
+    color: #FFFFFF;   
+}
+
+
+.section-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+
+}
+
+
+.section-subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.section-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+}
+
+
+.section-team, .section-button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.hidden{
+display: none;
+}
