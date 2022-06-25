@@ -68,20 +68,30 @@ ul {
 
 /* контакты */
 
-.contact {
+address{
+  font-style: normal;
+}
+
+.contact-heder {
   color: var(--contact-color);
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+  font-weight: 500;
+  text-decoration: none; 
 }
-.contact:hover,
+.contact-heder:hover,
 :focus {
   color: var(--accent-color);
 }
-
+.contact-map{
+  color: var(--wite-color);
+}
 .contact-footer {
   color: var(--white-transparent);
+  text-decoration: none;
 }
+
 
 /* герой */
 
@@ -94,7 +104,7 @@ ul {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .button-hero {
@@ -114,6 +124,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .subtitle-portfolio {
@@ -130,6 +141,7 @@ ul {
 
 .desc {
   color: var(--contact-color);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
 }
@@ -157,12 +169,11 @@ ul {
 /* новигация */
 
 .section-button {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
 }
 
-button {
+.button-navigate {
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -172,7 +183,17 @@ button {
   border: none;
 }
 
+.button-navigate:hover,
+.button-navigate:focus {
+background: var(--accent-color);
+color: var(--wite-color);
+}
+
 
 .hidden {
   display: none;
+}
+
+footer{
+  background: #212121;
 }
